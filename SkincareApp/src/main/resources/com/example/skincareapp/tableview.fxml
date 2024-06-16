@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/22" fx:controller="com.example.skincareapp.TableViewController">
+    <center>
+        <TableView fx:id="tableView" prefHeight="596.0" prefWidth="752.0" styleClass="table-view">
+            <columns>
+                <TableColumn fx:id="nameCol" text="Product Name" />
+                <TableColumn fx:id="brandCol" text="Brand" />
+                <TableColumn fx:id="spfCol" text="SPF" />
+                <TableColumn fx:id="skinTypeCol" text="Skin Type" />
+                <TableColumn fx:id="ratingCol" text="Rating" />
+            </columns>
+        </TableView>
+    </center>
+</BorderPane>
